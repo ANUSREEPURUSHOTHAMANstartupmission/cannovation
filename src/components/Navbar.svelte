@@ -73,7 +73,7 @@
    </div>
 
    <main class=" flex  items-start px-7 my-auto">
-      <div style="font-family: Museo-Sans, sans-serif;" class="flex my-auto  {scrolled?'text-black':'text-black'}">
+      <div style="font-family: Museo-Sans, sans-serif;" class="flex my-auto  {scrolled?'text-black':'text-white'}">
           <a href="/"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Home</a>
           <a href="/#events"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Events</a>
           <a href="/#speakers"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Speakers</a>
