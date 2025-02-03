@@ -25,24 +25,31 @@ import Countdown from "../components/Countdown.svelte";
                                     Experience the power of innovation at Cannovation 3.0!  Join a vibrant ecosystem of startups, industry leaders, and institutions coming together for inspiring discussions, hands-on workshops, and exciting competitions. From cutting-edge tech to entrepreneurial insights, explore opportunities to learn, connect, and grow. Be part of the innovation wave!</p>
                                  <!-- <a href="#" class="button-primary">CONTINUE READING</a> -->
                               </div>
-                              <div class=" absolute bottom-3 w-screen container  text-white">
-                                    <div class="flex justify-between w-full">
-                                       <div class="flex text-2xl font-semibold gap-3 items-center justify-center">
-                                          <i class="fas fa-calendar"></i>  February 24-25
-                                       </div>
-                                       <div>
-                                          <Countdown date="2025-02-24T09:00" client:load ></Countdown>
-                                       </div>
-                                       <div class="flex text-2xl font-semibold gap-3 items-center justify-center">
-                                          <i class="fas fa-map-marker-alt"></i> Kannur
-                                       </div>
-                                    </div>
+                              <div class="slider-button flex items-center justify-center gap-2">
+                                 <a href="https://tiqr.events/e/Cannovation-3.0-811" target="_blank" class="button-secondary uppercase">Register Now</a>
+                                 <!-- <a href="#" class="button-primary bg-[#0085BA]">READ MORE</a> -->
+
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" flex items-center justify-center">
+                           <div class=" absolute bottom-0 w-screen container items-center justify-center   text-white">
+                              <div class="flex justify-between w-full">
+                                 <div class="flex md:text-2xl text-xl font-semibold gap-3 items-center justify-center">
+                                    <i class="fas fa-calendar"></i>  February 24-25
+                                 </div>
+                                 <div class="md:flex hidden">
+                                    <Countdown date="2025-02-24T09:00" client:load ></Countdown>
+                                 </div>
+                                 <div class="flex md:text-2xl text-xl font-semibold gap-3 items-center justify-center">
+                                    <i class="fas fa-map-marker-alt"></i> Kannur
+                                 </div>
                               </div>
                            </div>
                         </div>
                      <div class="overlay"></div>
                   </div>
-                
+                 
                </div>
             </section>
 
@@ -98,6 +105,9 @@ import Countdown from "../components/Countdown.svelte";
                         <div class="contact-btn-wrap">
                            <h3 class=" font-bold text-xl pt-4">Stay Tuned & Save the Date! Get ready to map, explore, and experience Cannovation 3.0 – where innovation meets excitement!</h3>
                         </div>
+                        <div class="slider-button mt-4">
+                           <a href="https://tiqr.events/e/Cannovation-3.0-811" target="_blank" class="button-secondary uppercase">Register Now</a>
+                        </div>
                        
                      </div>
                   </div>
@@ -113,101 +123,101 @@ import Countdown from "../components/Countdown.svelte";
                      </div>
                   </div>
                </div>
-               <div class=" flex sm:flex-row flex-col gap-4">
+               <div class=" flex sm:flex-row flex-col gap-5 pt-2">
                  
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/expo.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Startup Expo
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/panel 1.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Panel Discussions & Founders Talk
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/women.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Women Entrepreneurship Program
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/1.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Hackathon
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class=" flex sm:flex-row flex-col gap-4">
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+               <div class=" flex sm:flex-row flex-col gap-5 pt-2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
-                        <img src="/img/tour3.jpg" class="hover:scale-125 overflow-hidden duration-500 w-full">
+                        <img src="/img/10.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               ICE Biz Contest
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/2.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Deep-Tech & Gen AI Masterclass
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/3.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Investment Masterclass & Investor Meet-Up
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/4.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Founder Development Program
 
                            </div>
@@ -215,50 +225,50 @@ import Countdown from "../components/Countdown.svelte";
                      </div>
                   </div>
                </div>
-               <div class=" flex sm:flex-row flex-col gap-4">
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+               <div class=" flex sm:flex-row flex-col gap-5 pt-2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/5.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Agro-Tech Conclave
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/7.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Faculty Startup Workshop
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/8.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               Fablab Workshop 
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="md:w-1/4 sm:w-1/3 w-1/2">
+                  <div class="md:w-1/4 sm:w-1/3 w-full">
                      <div  class=" overflow-hidden duration-500 rounded-xl">
                         <img src="/img/9.svg" class="hover:scale-125 overflow-hidden duration-500 w-full">
                      </div>
                      <div>
                         <div class="special-content">
-                           <div class="meta-cat pt-2 font-bold text-lg">
+                           <div class="meta-cat pt-2 font-bold text-base">
                               3D Bioprinting Workshop
                            </div>
                         </div>
@@ -267,7 +277,7 @@ import Countdown from "../components/Countdown.svelte";
                </div>
             </section>
 
-            <section class="py-20 pb-28 container flex flex-col" id="speakers">
+            <section class="py-20 pb-28 container flex flex-col hidden" id="speakers">
                <div class="section-heading text-center pb-6">
                   <div class="row">
                      <div class="col-lg-8 offset-lg-2">
@@ -282,8 +292,54 @@ import Countdown from "../components/Countdown.svelte";
                </div>
             </section>
 
+            <section class="py-20 pb-24 container flex flex-col " id="speakers">
+               <div class="section-heading text-center pb-6">
+                  <div class="row">
+                     <div class="col-lg-8 offset-lg-2">
+                        <h2>PARTNERS</h2>
+                     </div>
+                  </div>
+               </div>
+                <div class="flex flex-wrap">
+                  <div class=" grid md:grid-cols-5 gap-6 h-auto">
+                     <div class=" flex p-2">
+                        <img src="/img/p1.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p2.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p3.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p4.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p51.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p6.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p7.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p8.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p9.svg">
+                     </div>
+                     <div class=" flex">
+                        <img src="/img/p10.svg">
+                     </div>
+
+                  </div>
+                </div>
+               </div>
+            </section>
+
          </main>
-         <footer id="colophon" class="site-footer footer-primary">
+         <footer id="colophon" class="site-footer footer-primary mt-24">
           
             <div class="buttom-footer">
                <div class="container">

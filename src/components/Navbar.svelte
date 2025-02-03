@@ -63,12 +63,18 @@
   {scrolled?'bg-white':'bg-transparent'}
  ">
   <div class="w-full container mx-auto  flex justify-between px-4">
-   <div class=" md:px-2 m-0 font-medium w-fit p-0 rounded-md flex items-center justify-center ">
+   <div class=" md:px-2 m-0 font-medium gap-2 w-fit p-0 rounded-md flex items-center justify-center ">
     <a href="/" >
         <img
         src="{scrolled ? '/img/logo.svg' : '/img/logo-white.svg'}"
         alt="logo"
-        class="items-center justify-center h-16"
+        class="items-center justify-center md:h-14 h-12"
+      /></a>
+      <a href="/" >
+        <img
+        src="{scrolled ? '/img/logocannovation.svg' : '/img/logo-cannovation-white.svg'}"
+        alt="logo"
+        class="items-center justify-center md:h-14 h-12"
       /></a>
    </div>
 
@@ -76,7 +82,7 @@
       <div style="font-family: Museo-Sans, sans-serif;" class="flex my-auto  {scrolled?'text-black':'text-white'}">
           <a href="/"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Home</a>
           <a href="/#events"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Events</a>
-          <a href="/#speakers"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Speakers</a>
+          <!-- <a href="/#speakers"  class="md:flex hidden cursor-pointer  px-4 py-3  md:py-1 uppercase   text-sm">Speakers</a> -->
           <!-- <a href="/#LEAP_Membership"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm">Partners</a> -->
          
       </div>
@@ -111,8 +117,10 @@
 
 
   <div class="w-fit container mx-auto sm:items-center sm:justify-between">
-      <div class="mb-8  font-medium sm:bg-transparent p-5 sm:p-0 rounded-md flex items-center justify-center">
-          <img src="/img/logo-white.svg" alt="logo" class="h-14">
+      <div class="mb-8 gap-2  font-medium sm:bg-transparent p-5 sm:p-0 rounded-md flex items-center justify-center">
+          <img src="/img/logo-white.svg" alt="logo" class="md:h-14 h-12">
+          <img src="/img/logo-cannovation-white.svg" alt="logo" class="md:h-14 h-12">
+
       </div>
        <nav>
           <ul class=" md:text-sm gap-2 font-data">
@@ -120,14 +128,14 @@
                       <a href="/#home"  class="cursor-pointer text-white font-bold hover:text-black uppercase ">Home</a>
                   </li>
                   <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                    <a href="/#LEAP_Coworks"  class="cursor-pointer text-white font-bold hover:text-black uppercase ">Events</a>
+                    <a href="/#events"  class="cursor-pointer text-white font-bold hover:text-black uppercase ">Events</a>
                   </li>
                   <!-- <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
                     <a href="/#LEAP_Membership"  class="cursor-pointer text-white font-bold hover:text-black uppercase ">Partners</a>
                   </li> -->
-                  <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                    <a href="/#Facility_Booking"  class="cursor-pointer text-white font-bold hover:text-black uppercase ">Speakers</a>
-                  </li>
+                  <!-- <li on:click="{()=> menu_open = !menu_open }" class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
+                    <a href="/#speakers"  class="cursor-pointer text-white font-bold hover:text-black uppercase ">Speakers</a>
+                  </li> -->
 
                   
           </ul>
