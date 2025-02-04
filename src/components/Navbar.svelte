@@ -64,12 +64,12 @@
  ">
   <div class="w-full container mx-auto  flex justify-between px-4">
    <div class=" md:px-2 m-0 font-medium gap-2 w-fit p-0 rounded-md flex items-center justify-center ">
-    <a href="/" >
+    <!-- <a href="/" >
         <img
         src="{scrolled ? '/img/logo.svg' : '/img/logo-white.svg'}"
         alt="logo"
         class="items-center justify-center md:h-14 h-12"
-      /></a>
+      /></a> -->
       <a href="/" >
         <img
         src="{scrolled ? '/img/logocannovation.svg' : '/img/logo-cannovation-white.svg'}"
@@ -118,7 +118,7 @@
 
   <div class="w-fit container mx-auto sm:items-center sm:justify-between">
       <div class="mb-8 gap-2  font-medium sm:bg-transparent p-5 sm:p-0 rounded-md flex items-center justify-center">
-          <img src="/img/logo-white.svg" alt="logo" class="md:h-14 h-12">
+          <!-- <img src="/img/logo-white.svg" alt="logo" class="md:h-14 h-12"> -->
           <img src="/img/logo-cannovation-white.svg" alt="logo" class="md:h-14 h-12">
 
       </div>
